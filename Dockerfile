@@ -3,7 +3,7 @@
 # Build from the official release
 FROM ghost
 
-MAINTAINER Peter Timofejew <peter@timofejew.com>
+MAINTAINER Zack <zack@hypercubeplatforms.com>
 
 # Add in better default config adapted from https://github.com/kitematic/ghost.git
 ADD config.example.js config.example.js
@@ -12,4 +12,4 @@ ADD config.example.js config.example.js
 RUN chown -R user $GHOST_SOURCE/content
 
 # Default environment variables
-ENV GHOST_URL http://my-ghost-blog.com
+ENV GHOST_URL https://timetomakefood.com
