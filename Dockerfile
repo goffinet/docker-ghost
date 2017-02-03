@@ -12,4 +12,4 @@ ADD config.example.js config.example.js
 RUN chown -R user $GHOST_SOURCE/content
 
 # Default environment variables
-ENV GHOST_URL https://timetomakefood.com
+ENV GHOST_URL https://recipes2.schollz.com
